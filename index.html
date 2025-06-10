@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+  </head>
+  <body>
+    <h1>Desvendando o Desenvolvimento Web: Seu Guia Essencial</h1>
+    <hr />
+
+    <h2>Índice</h2>
+
+    <ul>
+      <li><a href="#estruturas-html">Estruturas HTML e Formatação</a></li>
+      <li>
+        <a href="#clients">O que são Clients?</a>
+      </li>
+      <li>
+        <a href="#server">O que são Servers?</a>
+      </li>
+      <li>
+        <a href="#midias-html">Utilizando mídias no HTML</a>
+      </li>
+      <li>
+        <a href="#html-semantico">Entendendo o HTML Semântico</a>
+      </li>
+      <li>
+        <a href="#principais-tags">As Principais Tags que você precisa conhecer</a>
+      </li>
+      <li>
+        <a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a>
+      </li>
+      <li>
+        <a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="estruturas-html">Estruturas HTML e Formatação</h2>
+    <p>
+     O <strong>HTML (HyperText Markup Language)</strong> é o esqueleto de qualquer página na
+     internet. Ele define como o conteúdo é organizado e exibido. Pense nele como
+     a planta de uma casa: onde ficam as paredes, as portas, as janelas.
+    <p> 
+     A estrutura básica de um arquivo <strong>HTML</strong> é bem simples. Começa com uma
+     declaração que avisa ao navegador que é uma página <strong> HTML5</strong>. Dentro da parte
+     principal, temos duas seções: o cabeçalho e o corpo. No cabeçalho, ficam
+     informações sobre a página que o usuário não vê diretamente, como o título
+     que aparece na aba do navegador. Já no corpo da página está todo o conteúdo
+     visível: <strong>textos, imagens, vídeos e muito mais.</strong>
+    <p>
+     Para deixar o texto mais interessante, usamos <strong>tags de formatação.</strong> Títulos
+     grandes e importantes usam uma tag específica, enquanto parágrafos comuns
+     usam outra. Se quiser destacar uma palavra, pode colocá-la em <strong>negrito</strong> ou
+     <i>itálico</i>. Usar essas tags corretamente ajuda a organizar seu conteúdo e
+     facilita a leitura, tornando a experiência do usuário muito melhor.
+    </p>
+    <ul>
+      <li><a href="https://rockcontent.com/br/blog/html/" 
+        target="_blank">https://rockcontent.com/br/blog/html/</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+
+    <h2 id="clients">O que são Clients?</h2>
+    <p>
+     No universo da internet, quando falamos em <strong>"clients"</strong> (clientes), estamos nos referindo aos programas e dispositivos que as pessoas usam para acessar
+     e interagir com informações online. O cliente é, basicamente, o <strong>"solicitante"</strong> em uma conversa na web.
+    <p>
+     Imagine que você está em um restaurante. Você é o cliente que faz o pedido ao garçom (o servidor). O garçom vai até a cozinha (o servidor) e traz o prato que você pediu.
+     Na internet, o cliente é o <strong>dispositivo ou software</strong> que faz pedidos de informações, enquanto o servidor é onde essas
+     <strong>informações estão armazenadas</strong> 
+     e de onde elas <strong>são enviadas</strong>.
+    <p>    
+     O exemplo mais comum de um cliente é o seu <strong>navegador de internet</strong>, como <strong>Chrome, Firefox, Safari ou Edge</strong>. 
+     Quando você digita um endereço de site ou clica em um link, é o seu navegador que faz um "pedido" para ver aquela página.
+     Seu celular ou tablet também atua como um cliente quando você usa <strong>aplicativos ou navega na internet</strong>.
+    <p>
+     Esses clientes são responsáveis por mostrar o <strong>conteúdo que recebem dos servidores</strong> de uma forma que possamos entender e interagir. 
+     Eles <strong>interpretam o código HTML, CSS e JavaScript</strong> para <strong>transformar dados brutos em páginas bonitas e funcionais</strong> que vemos na tela.
+    </p>
+     <ul>
+      <li><a href="https://programae.org.br/web/glossario/o-que-e-web-client-no-desenvolvimento-de-aplicacoes/" 
+        target="_blank">https://programae.org.br/web/glossario/o-que-e-web-client-no-desenvolvimento-de-aplicacoes/</a></li>
+      <li><a href="https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back" 
+        target="_blank">https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+
+    <h2 id="servers">O que são Servers?</h2>
+    <p>
+     No mundo da internet, se <strong>o "cliente" é quem pede, o servidor é quem entrega</strong>. Pense nele como uma 
+     <strong>grande biblioteca ou um armazém gigantesco</strong> na web.
+     É um computador superpotente, ligado 24 horas por dia, 7 dias por semana, com a missão de <strong> todos os dados, sites, fotos e vídeos que você acessa</strong>.
+    <p>
+     Quando você digita o endereço de um site no seu navegador (o cliente), o seu pedido viaja pela internet até chegar a um desses servidores. O servidor, então, encontra a 
+     página ou a informação que você pediu e a envia de volta para o seu navegador. <strong>É um vai e vem constante de informações que acontece em milésimos de segundos</strong>.
+    <p>    
+     Esses servidores são a<strong> espinha dorsal da internet</strong>. Sem eles, as páginas que você gosta não teriam onde ficar guardadas, e a comunicação online seria impossível. 
+     Eles são a <strong>"nuvem" que armazena tudo</strong> o que usamos na web, garantindo que a informação esteja sempre disponível quando você precisar.
+    </p>
+     <ul>
+     <li><a href="https://www.ovhcloud.com/pt/learn/what-is-web-server/" 
+        target="_blank">https://www.ovhcloud.com/pt/learn/what-is-web-server/</a></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+         target="_blank">https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+
+    <h2 id="midias-html">Utilizando mídias no HTML</h2>
+    <p>
+     Uma página web seria bem chata só com texto, não é mesmo? Por isso, o HTML nos permite 
+     adicionar <strong>imagens e vídeos</strong> para tornar tudo mais atrativo. É super fácil colocar uma imagem, 
+     basta <strong>onde o arquivo da imagem está</strong>  e colocar um texto alternativo, 
+     que aparece se a imagem não carregar e ajuda quem usa leitores de tela.
+    <p>
+     Para vídeos, você também indica o caminho do arquivo. Dá para adicionar controles de reprodução, 
+     fazer o vídeo tocar sozinho ou em loop. Incluir um vídeo é uma ótima forma de enriquecer sua página 
+     e prender a atenção do usuário, transformando uma experiência estática em algo dinâmico e envolvente.
+    </p>
+      <ul>
+      <li><a href="https://www.dio.me/articles/midias-em-html-audio-video-imagem-track" 
+        target="_blank">https://www.dio.me/articles/midias-em-html-audio-video-imagem-track</a></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/video" 
+        target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/video</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+
+    <h2 id="html-semantico">Entendendo o HTML Semântico</h2>
+    <p>
+     O <strong>HTML Semântico</strong> é sobre usar as <strong>tags HTML</strong> de forma inteligente, dando significado ao conteúdo
+     e não apenas à sua aparência. Em vez de usar uma tag genérica para tudo, o HTML5 trouxe tags que 
+     descrevem o que cada parte da página realmente é. Isso não só deixa o código mais organizado para
+     quem programa, mas também <strong>ajuda o Google a entender</strong> melhor seu site.</p>
+    <p>
+     Imagine sua página como um livro. Com o HTML semântico, você usa tags específicas para o cabeçalho do livro,
+     outra para o sumário de navegação, uma para o conteúdo principal, e outra para um capítulo específico ou o rodapé.
+     Isso <strong>melhora a acessibilidade</strong> (para pessoas com deficiência visual, por exemplo) e ajuda o site a aparecer melhor nas buscas (SEO).
+     É como dar nomes claros às coisas para que todos as entendam, desde outros desenvolvedores até os robôs dos mecanismos de busca.
+    </p>
+     <ul>
+      <li><a href="https://www.godaddy.com/resources/br/artigos/html-semantico" 
+        target="_blank">https://www.godaddy.com/resources/br/artigos/html-semantico</a></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics" 
+        target="_blank">https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+   
+    <h2 id="principais-tags">As principais Tags que você precisa conhecer</h2>
+    <p>
+     Além das tags básicas, existem outras ferramentas importantes no HTML para <strong> criar páginas mais complexas e interativas</strong>.
+     uma tag muito útil <strong>permite incorporar conteúdo de outros sites</strong>, como vídeos do YouTube ou mapas do Google,
+     diretamente na sua página. É como ter uma janela para outro site dentro do seu, sem que o usuário precise sair da sua página.
+    <p>
+     Outra tag fundamental é usada para criar tabelas de dados. Dentro dela, organizamos as informações em linhas e células. 
+     Existem <strong>células específicas para os títulos das colunas</strong> (tipo <i>"Nome"</i> ou <i>"Idade"</i>), e outras para o conteúdo de cada item. 
+     Você pode agrupar o cabeçalho da tabela, o corpo com os dados e até um rodapé com totais ou resumos.
+     Isso ajuda a <strong>organizar dados de forma clara e estruturada</strong>, facilitando a leitura e a compreensão de informações complexas.
+    </p>
+    <ul>
+      <li><a href="https://pt.semrush.com/blog/tags-html/" 
+        target="_blank">https://pt.semrush.com/blog/tags-html/</a></li>
+      <li><a href="https://hub.asimov.academy/blog/guia-html/"
+        target="_blank">https://hub.asimov.academy/blog/guia-html/</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>
+     As listas são uma <strong>ferramenta essencial no HTML</strong> para organizar informações de forma clara em sua página. 
+     Existem dois tipos principais: as <strong>listas não ordenadas e as listas ordenadas</strong>. 
+     A escolha entre elas é simples e depende se a sequência dos itens que você está apresentando é importante ou não para o seu leitor.
+    <p>
+     Listas <strong>não ordenadas </strong> são usadas quando <strong>a ordem dos itens não importa</strong>. Elas são ótimas para agrupar informações que podem ser lidas em qualquer sequência,
+     As listas não ordenadas são perfeitas para agrupar itens onde a ordem não faz diferença. Pense em uma lista de tarefas do dia a dia 
+     ou uma lista de ingredientes para uma receita, onde você pode comprar os itens em qualquer sequência. No HTML, cada item é marcado com um símbolo, 
+     como uma bolinha, mostrando que a ordem dos pontos não altera o sentido da lista.
+    <p>
+     Já as listas <strong>ordenadas </strong>são ideais quando a <strong>sequência dos itens é crucial</strong>. Um exemplo clássico é o passo a passo de um tutorial ou os degraus de uma escada:
+     a ordem importa para que o resultado final seja alcançado. No HTML, esses itens são automaticamente numerados, garantindo que o leitor siga a sequência correta 
+     e compreenda a hierarquia das informações.
+    </p>
+     <ul>
+      <li><a href="https://materialpublic.imd.ufrn.br/curso/disciplina/3/10/3/5"
+        target="_blank">https://materialpublic.imd.ufrn.br/curso/disciplina/3/10/3/5</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+
+    <h2 id="referencias">Links de referências</h2>
+   
+  <ul>
+      <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+      <li><a href="https://www.telecom.uff.br/pet/petws/downloads/apostilas/HTML.pdf" 
+        target="_blank">https://www.telecom.uff.br/pet/petws/downloads/apostilas/HTML.pdf</a></li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar</a></p>
+  </body>
+</html>
